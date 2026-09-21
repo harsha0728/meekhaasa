@@ -33,7 +33,7 @@ export default function Home() {
             <a href="#events">Events</a>
             <a href="#visit">Visit</a>
           </div>
-          <button className="primary-button" type="button">Reserve a Table</button>
+          <a className="primary-button" href="#visit">Reserve a Table</a>
         </nav>
 
         <div className="hero-content">
@@ -45,8 +45,8 @@ export default function Home() {
               memorable dinners, celebrations, and special occasions.
             </p>
             <div className="cta-row">
-              <button className="primary-button" type="button">Book a table</button>
-              <button className="secondary-button" type="button">View events</button>
+              <a className="primary-button" href="#visit">Book a table</a>
+              <a className="secondary-button" href="#events">View events</a>
             </div>
             <div className="stats-row">
               {highlights.map((item) => (
